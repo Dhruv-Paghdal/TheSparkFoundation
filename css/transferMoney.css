@@ -1,0 +1,65 @@
+.bankLogo{
+    width: 25%;
+}
+
+.card{
+    border: 1px solid whitesmoke ;
+    border-radius: 15px ;
+    padding: 40px;
+    box-shadow: 0 5px 30px rgb(0 120 255 / 20%);
+}
+
+input,select{
+    border: 2px solid rgba(196, 194, 196, 0.842);
+    border-radius: 25px;
+    padding: 7px;
+}
+
+.amount{
+    display: flex;
+    flex-direction: row;
+    border: 1px solid rgb(196, 194, 196);
+    border-radius: 50px;
+}
+
+.amountInput{
+    border: 0px solid rgba(196, 194, 196, 0.842);
+    border-radius: 20px;
+    padding: 7px;
+}
+
+.amount>button{
+    background-color: #807dfb;
+    color: white;
+    border: 1px solid #807dfb;
+    border-radius: 20px;
+    padding: 5px;
+    width: 80px;
+    height: 40px;
+}
+
+.amount>button:hover{
+    background-color: rgb(30, 25, 88);
+}
+
+i{
+    font-size: 11.5rem;
+    color: #807dfb;
+}
+
+@media screen and (min-width: 320px) and (max-width: 760px) {
+    .bankLogo{
+        width: 100%;
+    }
+
+    i{
+        transform: rotate(90deg);
+        margin: 20px ;
+    }
+
+    .sender,.reciver{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
+}
